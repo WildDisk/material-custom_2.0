@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="Theme.PicassoTutorial" parent="Theme.MaterialComponents.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.MaterialComponents.SmallComponent</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.MaterialComponents.MediumComponent</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.MaterialComponents.LargeComponent</item>
+    </style>
+    
+    <style name="Theme.PicassoTutorial.Dialog" parent="Theme.MaterialComponents.Dialog">
+        <item name="colorPrimary">@color/dialogColorPrimary</item>
+        <item name="colorPrimaryDark">@color/dialogColorPrimaryDark</item>
+        <item name="colorAccent">@color/dialogColorAccent</item>
+    </style>
+
+    <style name="ShapeAppearance.PicassoTutorial.SmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">4dp</item>
+    </style>
+
+    <style name="ShapeAppearance.PicassoTutorial.MediumComponent" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+
+    <style name="ShapeAppearance.PicassoTutorial.LargeComponent" parent="ShapeAppearance.MaterialComponents.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">4dp</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.PicassoTutorial.MaterialCardView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">35dp</item>
+    </style>
+
+    <style name="Widget.PicassoTutorial.MaterialCardView" parent="Widget.MaterialComponents.CardView">
+        <item name="shapeAppearance">@style/ShapeAppearanceOverlay.PicassoTutorial.MaterialCardView</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.PicassoTutorial.MaterialCardView.Rounded" parent="">
+        <item name="cornerFamily">rounded</item>
+    </style>
+</resources>
