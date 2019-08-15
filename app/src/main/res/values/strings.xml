@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">PicassoTutorial</string>
+    <string name="button_action">button action</string>
+    <string name="take_a_picture">Take a picture</string>
+    <string name="space_picture">Space picture in wiki</string>
+    <string name="picture_wiki">Picture wiki</string>
+    <string name="button_menu">button menu</string>
+    <string name="loaded_image">loaded image</string>
 </resources>
