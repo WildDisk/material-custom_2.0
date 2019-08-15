@@ -13,7 +13,7 @@
     <TextView
             android:id="@+id/tv_dialog"
             android:text="@string/this_is_not_a_shrine"
-            android:textSize="23sp"
+            android:textSize="21sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"

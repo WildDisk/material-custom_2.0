@@ -21,6 +21,7 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name=".ui.PictureActivity"/>
         <activity android:name=".ui.DialogActivity"
                   android:theme="@style/Theme.PicassoTutorial.Dialog"/>
     </application>

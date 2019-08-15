@@ -40,6 +40,7 @@
             android:layout_height="48dp"
             android:text="@string/space_picture"
             android:textSize="32sp"
+            android:textColor="@android:color/white"
             android:textAlignment="textEnd"
             android:fontFamily="@font/rubik"
             android:layout_marginTop="8dp"
@@ -63,6 +64,11 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tv_title">
+
+        <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/view_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
 
     </FrameLayout>
 
