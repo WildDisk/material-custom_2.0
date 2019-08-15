@@ -10,6 +10,12 @@
         <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.MaterialComponents.MediumComponent</item>
         <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.MaterialComponents.LargeComponent</item>
     </style>
+    
+    <style name="Theme.PicassoTutorial.Dialog" parent="Theme.MaterialComponents.Dialog">
+        <item name="colorPrimary">@color/dialogColorPrimary</item>
+        <item name="colorPrimaryDark">@color/dialogColorPrimaryDark</item>
+        <item name="colorAccent">@color/dialogColorAccent</item>
+    </style>
 
     <style name="ShapeAppearance.PicassoTutorial.SmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">
         <item name="cornerFamily">cut</item>

@@ -6,4 +6,7 @@
     <string name="picture_wiki">Picture wiki</string>
     <string name="button_menu">button menu</string>
     <string name="loaded_image">loaded image</string>
+    <string name="main_image">main image</string>
+    <string name="this_is_not_a_shrine">This is not a SHRINE!</string>
+    <string name="dialog_image">dialog image</string>
 </resources>

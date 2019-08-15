@@ -21,16 +21,36 @@
             android:layout_height="match_parent">
 
         <Button
-                android:id="@+id/btn_resource"
+                android:id="@+id/btn_action"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:text="@string/button_action"
                 android:textColor="@color/button"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintTop_toTopOf="parent"/>
+                app:layout_constraintTop_toBottomOf="@+id/iv_scull"/>
+
+        <ImageView
+                android:id="@+id/iv_scull"
+                android:layout_width="match_parent"
+                android:layout_height="465dp"
+                android:src="@drawable/scull"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:contentDescription="@string/main_image"
+                android:transitionName="@string/this_is_not_a_shrine"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintBottom_toTopOf="@+id/btn_action"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </com.github.florent37.shapeofview.shapes.CutCornerView>
